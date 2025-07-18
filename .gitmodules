@@ -1,3 +1,6 @@
 [submodule "config/nvim"]
 	path = config/nvim
 	url = https://github.com/munizio/nvim-config.git
+[submodule "config/tmux-sessionizer"]
+	path = config/tmux-sessionizer
+	url = https://github.com/munizio/tmux-sessionizer.git
