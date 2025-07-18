@@ -26,10 +26,12 @@ for file in migrations/*.sh; do
   fi
 done
 
-source install/4-config.sh
+# source $HOME/_working/omarchy/bin/omarchy-refresh-configs
+source $HOME/.local/share/omarchy/bin/omarchy-refresh-configs
 
 # Back to where we came from
 cd - >/dev/null
 
 echo -e ""
 gum confirm "Update system packages too?" && yay -Syu --noconfirm
+
