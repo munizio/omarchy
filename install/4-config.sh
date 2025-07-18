@@ -4,7 +4,7 @@ git submodule init
 git submodule update
 
 pushd ~/.local/share/omarchy/config/nvim
-git checkout master
+git checkout main
 popd
 
 # Copy over Omarchy configs
