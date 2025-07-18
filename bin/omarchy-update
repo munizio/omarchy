@@ -2,6 +2,17 @@
 
 cd ~/.local/share/omarchy
 
+git submodule init
+git submodule update
+
+pushd ~/.local/share/omarchy/config/nvim
+git checkout main
+popd
+
+pushd ~/.local/share/omarchy/config/tmux-sessionizer
+git checkout master
+popd
+
 if [[ $1 == "all" ]]; then
   # Run all migrations
   last_updated_at=1

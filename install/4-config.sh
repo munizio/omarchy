@@ -1,12 +1,5 @@
 #!/bin/bash
 
-git submodule init
-git submodule update
-
-pushd ~/.local/share/omarchy/config/nvim
-git checkout main
-popd
-
 # Copy over Omarchy configs
 cp -R ~/.local/share/omarchy/config/* ~/.config/
 
