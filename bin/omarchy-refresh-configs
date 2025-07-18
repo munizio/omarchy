@@ -60,5 +60,6 @@ copy() {
 update_files $omarchy_config $XDG_CONFIG_HOME
 
 copy $omarchy_config/tmux-sessionizer/tmux-sessionizer $HOME/.local/share/omarchy/bin/tmux-sessionizer
+copy $omarchy_config/tmux-sessionizer/.tmux-sessionizer $HOME/.tmux-sessionizer
 
 hyprctl reload
