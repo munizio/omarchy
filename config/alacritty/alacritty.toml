@@ -7,7 +7,7 @@ TERM = "xterm-256color"
 normal = { family = "CaskaydiaMono Nerd Font", style = "Regular" }
 bold = { family = "CaskaydiaMono Nerd Font", style = "Bold" }
 italic = { family = "CaskaydiaMono Nerd Font", style = "Italic" }
-size = 9
+size = 10
 
 [window]
 padding.x = 14
@@ -17,5 +17,6 @@ opacity = 0.98
 
 [keyboard]
 bindings = [
-{ key = "F11", action = "ToggleFullscreen" }
+{ key = "F11", action = "ToggleFullscreen" },
+{ key = "F", mods = "Control" , command = "/home/dunehazard/.local/share/omarchy/bin/tmux-sessionizer" }
 ]
