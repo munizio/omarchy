@@ -18,5 +18,5 @@ opacity = 0.98
 [keyboard]
 bindings = [
 { key = "F11", action = "ToggleFullscreen" },
-{ key = "F", mods = "Control" , command = "/home/dunehazard/.local/share/omarchy/bin/tmux-sessionizer" }
+{ key = "F", mods = "Control" , chars = "tmux-sessionizer\n" }
 ]
