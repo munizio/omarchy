@@ -7,10 +7,12 @@ git submodule update
 
 pushd ~/.local/share/omarchy/config/nvim
 git checkout main
+git pull
 popd
 
 pushd ~/.local/share/omarchy/config/tmux-sessionizer
 git checkout master
+git pull
 popd
 
 if [[ $1 == "all" ]]; then
