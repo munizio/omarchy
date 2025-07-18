@@ -26,7 +26,7 @@ for file in migrations/*.sh; do
   fi
 done
 
-omarchy-refresh-configs --dry-run
+source install/4-config.sh
 
 # Back to where we came from
 cd - >/dev/null
